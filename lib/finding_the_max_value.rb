@@ -6,7 +6,7 @@ def find_max_value(array)
   while count < array.length.times do
     array[count]<array[count]+1
     count += 1 
-    end 
+     
   end  
   #return max_value
 end
