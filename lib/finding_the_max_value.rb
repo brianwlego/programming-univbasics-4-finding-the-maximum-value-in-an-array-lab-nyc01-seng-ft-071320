@@ -5,9 +5,10 @@ def find_max_value(array)
   max_value=nil 
   while count < array.length.times do
     if array[count]>array[count-1]
+     binding.pry
       array[count]=max_value
     counter += 1 
-    binding.pry 
+     
   end  
   return max_value
 end
